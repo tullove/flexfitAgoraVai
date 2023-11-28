@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Krona One;
+}
+
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #FFFF;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.voltar{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+header p {
+    font-size: 35px;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    margin:0;
+    height: max-content;
+}
+
+.flex {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5px;
+    height: max-content;
+    margin: 40px 0;
+}
+
+.letradiferente {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -1.645px;
+    margin:0;
+
+}
+
+div p {
+    color: #ffffff;
+    font-family: Krona One;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88%;
+    letter-spacing: -1.225px; 
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    border-radius: 25px 25px 0 0;
+   padding-top: 130px;
+}
+
+.container {
+    width: 373px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+#muaythai{
+    background: url(../../assets/img/KICKBOXING.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 20px;
+}
+
+.branco{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #ffffff;
+    border-radius: 25px ;
+}
+
+.diadasemana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bolinha{
+    width: 31px;
+    height: 31px;
+    border-radius: 100px;
+    background-color: #3C3C3C;
+    text-align: center;
+    color: #909090;
+    display: grid;
+    place-items: center;
+    
+}
+
+.horario{
+    width: 305px;
+    height: 130px;
+    background-color: #ffffff;
+    fill: #FFF;
+    filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 25px;
+}
+
+.botao{
+    width: 121px;
+    height: 28px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(0, 117, 255, 0.25);
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 88%;
+    color: #08E2E2;
+}
+
+.textohorario h1{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.textohorario h2{
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #535353;
+    margin-top: 5px;
+}
+
+.imagemEtexto{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagemEtexto img{
+   width: 30px;
+   height: 30px;
+}
+
+.quantAlunos h1{
+    font-size: 17px;
+    font-family: Montserrat;
+    color: #000000;
+}
+
+
+
+
+
+

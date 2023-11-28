@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <p class="flex">FLEX</p><p>FIT</p>
+    </header>
+    <main>
+        <form id="myForm">
+            <input id="nome"  value={nome} placeholder="Nome:"></input>
+            <input id="email"  value={email}placeholder="Email:" ></input>
+            <input id="academia"  value={academia} placeholder="Academia:"></input>
+            <input id="senha"  value={senha}  type="password" placeholder="Senha:"></input>
+            <input id="repetirSenha"  value={repetirsenha} type="password" placeholder="Repetir senha:"></input>
+        </form>
+    </main>
+    <footer>
+        <button onclick="salvarNoFirebase()">ENTRAR</button>
+        <p class="text">Possui login? <a href="../Logar/login.html" class="cadastrese">Fazer login</a></p>
+    </footer>
+
+    <script src="cadastro.ts"></script>
+</body>
+</html>

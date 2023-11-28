@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Krona One;
+}
+
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #FFFF;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.voltar{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+    width: max-content;
+}
+header p {
+    font-size: 35px;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    margin:0;
+    height: max-content;
+}
+
+.flex {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+
+}
+
+main {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #000000;
+    border-radius: 25px 25px 0 0;
+}
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5px;
+    height: max-content;
+    margin: 40px 20px 0 0;
+}
+
+.letradiferente {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: -1.645px;
+    margin:0;
+
+}
+
+div p {
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88%;
+    letter-spacing: -1.225px; 
+    margin: 0;
+}
+
+    .container {
+        width: 373px;
+        height: 150px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        position: relative;
+    }
+
+
+#gluteo {
+    background: url(../../assets/img/gluteo.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 20px;
+}
+
+#costas {
+    background: url(../../assets/img/costas.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 20px;
+}
+
+#quads {
+    background: url(../../assets/img/quads.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 20px;
+}
+
+#peito {
+    background: url(img/peito.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 20px;
+}
+
+footer {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+
+}
